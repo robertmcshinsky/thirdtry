@@ -1,7 +1,7 @@
 <template>
 <div id="app">
 
-<title>Walkz</title>
+  <title>Walkz</title>
   <link rel="stylesheet" href="css/master.css">
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,13 +11,15 @@
   <div class="topnav" id="myTopnav">
     <router-link to="/">Home</router-link>
     <router-link to="/DogsList">Walk<span style="color: #ff3385">ie</span>Z</router-link>
-    <router-link to="/Walkers">WALK<span style="color: #ff3385">er</span>Z</router-link>
+    <router-link to="/Walkerz">WALK<span style="color: #ff3385">er</span>Z</router-link>
     <router-link to="/Locator">Locat<span style="color: #ff3385">o</span>r</router-link>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
-
+  <div class="footer">
+    <a href="https://github.com/robertmcshinsky/thirdtry.git">Github Link</a>
+  </div>
   <router-view />
 </div>
 </template>
@@ -196,5 +198,16 @@ button {
   font-size: 16px;
   box-shadow: 2px;
   border-radius: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: red;
+
+  text-align: center;
 }
 </style>

@@ -11,7 +11,7 @@
         <h2 class="leftSide">WALKieZ</h2>
         <p class="leftSide">Set up a profile for your best friend</p>
         <button type="button" name="button"><router-link to="/Profiles"><span style="color: black">Create Account</span></router-link></button>
-        <button type="button" name="button"><router-link to="/Profiles"><span style="color: black">Login</span></router-link></button>
+        <button type="button" name="button"><router-link to="/Login"><span style="color: black">Login</span></router-link></button>
       </div>
     </div>
 
@@ -21,12 +21,12 @@
         <h2>WALKerZ</h2>
         <p>Set up a profile to begin walking</p>
         <button type="button" name="button"><router-link to="/Profiles"><span style="color: black">Create Account</span></router-link></button>
-        <button type="button" name="button"><router-link to="/Profiles"><span style="color: black">Login</span></router-link></button>
+        <button type="button" name="button"><router-link to="/Login"><span style="color: black">Login</span></router-link></button>
       </div>
     </div>
   </div>
 </div>
-</template> 
+</template>
 
 <script>
 // @ is an alias to /src

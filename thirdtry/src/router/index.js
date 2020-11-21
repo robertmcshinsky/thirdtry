@@ -5,6 +5,8 @@ import Profiles from '../views/Profiles.vue'
 import Dogslist from '../views/Dogslist.vue'
 import Walkerz from '../views/Walkerz.vue'
 import Locator from '../views/Locator.vue'
+import Login from '../views/Login.vue'
+
 
 
 
@@ -35,6 +37,11 @@ const routes = [
     path: '/locator',
     name: 'Locator',
     component: Locator
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
   },
   {
     path: '/about',

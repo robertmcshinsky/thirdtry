@@ -10,8 +10,8 @@
 
   <div class="topnav" id="myTopnav">
     <router-link to="/">Home</router-link>
-    <router-link to="/DogsList">Walk<span style="color: #ff3385">ie</span>Z</router-link>
-    <router-link to="/Walkerz">WALK<span style="color: #ff3385">er</span>Z</router-link>
+    <router-link to="/DogsList">Walki<span style="color: #ff3385">e</span>Z</router-link>
+    <router-link to="/Walkerz">WALKe<span style="color: #ff3385">r</span>Z</router-link>
     <router-link to="/Locator">Locat<span style="color: #ff3385">o</span>r</router-link>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
@@ -22,7 +22,7 @@
   </div>
   <router-view />
 </div>
-</template> 
+</template>
 
 <style>
 #app {

@@ -1,9 +1,9 @@
 <template>
 <div class="Dogslist">
-
+  <h1>These Dogs Need YOU to Walk Them</h1>
   <div class="row">
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Charlie
+      <div class="card">Hello! My Name is: <br/> Charlie <br/>
         <img src="https://www.guidedogs.org/wp-content/uploads/2019/11/website-donate-mobile.jpg" alt="">
         <div class="overlay">
           <div class="text">Name: Charlie <br /> Age: 4 years <br /> Hobbies: Chewing on Socks
@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Max
+      <div class="card">Hello! My Name is: <br /> Max <br/>
         <img src="https://post.greatist.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg" alt="">
         <div class="overlay">
           <div class="text">Name: Max <br /> Age: 4 years <br /> Hobbies: Chewing on Socks
@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Jojo
+      <div class="card">Hello! My Name is: <br /> Jojo <br/>
         <img src="https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp" alt="">
         <div class="overlay">
           <div class="text">Name: Jojo <br /> Age: 4 years <br /> Hobbies: Chewing on Socks
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Woof
+      <div class="card">Hello! My Name is: <br /> Woof <br/>
         <img src="https://linkshare2.flippydemos.com/uploaded_images/dogs_497551602.jpg" alt="">
         <div class="overlay">
           <div class="text">Name: Woof <br /> Age: 4 years <br /> Hobbies: Chewing on Socks
@@ -54,7 +54,7 @@
 
   <div class="row">
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Polly
+      <div class="card">Hello! My Name is: <br /> Polly <br/>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GCtZMzmnVwuqdgNzniwrRQhYuPHXziD8TQ&usqp=CAU" alt="">
         <div class="overlay">
           <div class="text">Name: Polly <br /> Age: 4 years <br /> Hobbies: Chewing on Socks
@@ -66,7 +66,7 @@
       </div>
     </div>
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Mark
+      <div class="card">Hello! My Name is: <br /> Mark <br/>
         <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bernese-mountain-dog-royalty-free-image-1581013857.jpg?crop=0.87845xw:1xh;center,top&resize=480:*" alt="">
         <div class="overlay">
           <div class="text">Name: Mark <br /> Age: 4 years <br /> Hobbies: Chewing on Socks
@@ -79,7 +79,7 @@
       </div>
     </div>
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Draco
+      <div class="card">Hello! My Name is: <br /> Draco <br/>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaX5WwBBEaef8sB0YDU4jTteeusyYo6yr44Q&usqp=CAU" alt="">
         <div class="overlay">
           <div class="text">Name: Draco <br /> Age: 4 years <br /> Hobbies: Chewing on Socks
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="column">
-      <div class="card">Hello! My Name is: <br /> Bowie
+      <div class="card">Hello! My Name is: <br /> Bowie <br/>
         <img
           src="https://d39w7f4ix9f5s9.cloudfront.net/dims4/default/fd8aa2e/2147483647/strip/true/crop/2448x1899+0+682/resize/812x630!/quality/90/?url=http%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fd1%2F41%2F5a46bdbc4d12b8e11ce2fb6f22ff%2F20180105-dogsatwork-013.JPG"
           alt="">

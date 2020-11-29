@@ -12,7 +12,7 @@
     <router-link to="/">Home</router-link>
     <router-link to="/DogsList">Walki<span style="color: #ff3385">e</span>Z</router-link>
     <router-link to="/Walkerz">WALKe<span style="color: #ff3385">r</span>Z</router-link>
-    <router-link to="/Locator">Locat<span style="color: #ff3385">o</span>r</router-link>
+    <router-link to="/Locator">Revi<span style="color: #ff3385">e</span>w</router-link>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -209,5 +209,79 @@ button {
   color: red;
 
   text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  /* Split the screen in half */
+  .split {
+    height: 70%;
+    width: 45%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 150px;
+    font-family: 'Righteous', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+  }
+
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #333;
+  }
+
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #D0D0D0;
+  }
+
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* Control the left side */
+
+
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  button {
+  height: 60px;
+  text-align: centered;
+  }
 }
 </style>
